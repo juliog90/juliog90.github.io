@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-03-19 Thu 10:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cuatrimestre 8 UTT Universidad</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Julio Gastelum" />
+<meta name="description" content="Agenda UTT, Pendientes, Tareas, Detalles, etc del 8vo Cuatrimestre"
+ />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.cacheClassElem = elem.className;
+         elem.cacheClassTarget = target.className;
+         target.className = "code-highlighted";
+         elem.className   = "code-highlighted";
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(elem.cacheClassElem)
+         elem.className = elem.cacheClassElem;
+       if(elem.cacheClassTarget)
+         target.className = elem.cacheClassTarget;
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Cuatrimestre 8 UTT Universidad</h1>
+
+<div id="outline-container-orgdce89ee" class="outline-2">
+<h2 id="orgdce89ee">General</h2>
+<div class="outline-text-2" id="text-orgdce89ee">
+</div>
+<div id="outline-container-org1fc0b41" class="outline-3">
+<h3 id="org1fc0b41"><span class="todo TODO">TODO</span> Clases regreso</h3>
+<div class="outline-text-3" id="text-org1fc0b41">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED:</span> <span class="timestamp">&lt;2020-04-20 Mon 17:50&gt;</span></span></p>
+</div>
+</div>
+<div id="outline-container-orgec651da" class="outline-3">
+<h3 id="orgec651da"><span class="todo TODO">TODO</span> Reinscripciones UTT</h3>
+<div class="outline-text-3" id="text-orgec651da">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2020-05-03 Sun&gt;</span> <span class="timestamp-kwd">SCHEDULED:</span> <span class="timestamp">&lt;2020-04-08 Wed&gt; </span></span></p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org50a1e3d" class="outline-2">
+<h2 id="org50a1e3d">Planeación y Organización del Trabajo</h2>
+<div class="outline-text-2" id="text-org50a1e3d">
+</div>
+<div id="outline-container-orged038df" class="outline-3">
+<h3 id="orged038df">Detalles</h3>
+<div class="outline-text-3" id="text-orged038df">
+</div>
+<div id="outline-container-org997891a" class="outline-4">
+<h4 id="org997891a">Profesor</h4>
+<div class="outline-text-4" id="text-org997891a">
+<p>
+Ing. José Antonio Reyes Perez
+</p>
+</div>
+</div>
+<div id="outline-container-org9c0b881" class="outline-4">
+<h4 id="org9c0b881">Horario</h4>
+<div class="outline-text-4" id="text-org9c0b881">
+<ul class="org-ul">
+<li>Martes 17:50-20:20</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org16fef9e" class="outline-3">
+<h3 id="org16fef9e">Tareas</h3>
+</div>
+<div id="outline-container-orgd10d866" class="outline-3">
+<h3 id="orgd10d866">Temas de Estudio</h3>
+</div>
+</div>
+
+<div id="outline-container-org0f38184" class="outline-2">
+<h2 id="org0f38184">Redes Convergentes</h2>
+<div class="outline-text-2" id="text-org0f38184">
+</div>
+<div id="outline-container-orgc1d2b40" class="outline-3">
+<h3 id="orgc1d2b40">Detalles</h3>
+<div class="outline-text-3" id="text-orgc1d2b40">
+</div>
+<div id="outline-container-org7fa0726" class="outline-4">
+<h4 id="org7fa0726">Profesor</h4>
+<div class="outline-text-4" id="text-org7fa0726">
+<p>
+M.C. Florencio Lopez Cruz
+</p>
+</div>
+</div>
+<div id="outline-container-orgf2abeb5" class="outline-4">
+<h4 id="orgf2abeb5">Horario</h4>
+<div class="outline-text-4" id="text-orgf2abeb5">
+<ul class="org-ul">
+<li>Miércoles 21:10-22:50</li>
+<li>Jueves 19:30-22:00</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge5f466e" class="outline-3">
+<h3 id="orge5f466e">Tareas</h3>
+<div class="outline-text-3" id="text-orge5f466e">
+</div>
+<div id="outline-container-orge94f7ba" class="outline-4">
+<h4 id="orge94f7ba"><span class="todo TODO">TODO</span> Examen 2 Parcial Practica</h4>
+<div class="outline-text-4" id="text-orge94f7ba">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED:</span> <span class="timestamp">&lt;2020-03-19 Thu 19:30&gt;</span></span></p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0166ccf" class="outline-3">
+<h3 id="org0166ccf">Temas de Estudio</h3>
+</div>
+</div>
+
+<div id="outline-container-orged83d76" class="outline-2">
+<h2 id="orged83d76">Sistemas de Calidad de TI</h2>
+<div class="outline-text-2" id="text-orged83d76">
+</div>
+<div id="outline-container-org98a4171" class="outline-3">
+<h3 id="org98a4171">Detalles</h3>
+<div class="outline-text-3" id="text-org98a4171">
+</div>
+<div id="outline-container-org10380c5" class="outline-4">
+<h4 id="org10380c5">Profesor</h4>
+<div class="outline-text-4" id="text-org10380c5">
+<p>
+Ing. Juan Carlos Pimentel Bonilla
+</p>
+</div>
+</div>
+<div id="outline-container-org13e31ad" class="outline-4">
+<h4 id="org13e31ad">Horario</h4>
+<div class="outline-text-4" id="text-org13e31ad">
+<ul class="org-ul">
+<li>Martes 21:10-22:50</li>
+<li>Miércoles 22:00-22:50</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb5afd29" class="outline-3">
+<h3 id="orgb5afd29">Tareas</h3>
+<div class="outline-text-3" id="text-orgb5afd29">
+</div>
+<div id="outline-container-org023374c" class="outline-4">
+<h4 id="org023374c"><span class="todo TODO">TODO</span> Características Moprosoft</h4>
+<div class="outline-text-4" id="text-org023374c">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2020-03-21 Sat 23:55&gt;</span></span></p>
+</div>
+</div>
+<div id="outline-container-org5f828bb" class="outline-4">
+<h4 id="org5f828bb"><span class="todo TODO">TODO</span> Norma ISO 9011</h4>
+<div class="outline-text-4" id="text-org5f828bb">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2020-03-28 Sat 23:55&gt;</span> <span class="timestamp-kwd">SCHEDULED:</span> <span class="timestamp">&lt;2020-03-24 Tue 17:55&gt; </span></span></p>
+</div>
+</div>
+<div id="outline-container-orgac4c9d7" class="outline-4">
+<h4 id="orgac4c9d7"><span class="todo TODO">TODO</span> Tema de Investigación y Exposición</h4>
+<div class="outline-text-4" id="text-orgac4c9d7">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2020-03-28 Sat 23:59&gt;</span></span></p>
+</div>
+</div>
+<div id="outline-container-org4af084a" class="outline-4">
+<h4 id="org4af084a"><span class="todo TODO">TODO</span> Resumen CMMI y PMBOK</h4>
+<div class="outline-text-4" id="text-org4af084a">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2020-04-18 Sat 23:55&gt;</span></span></p>
+</div>
+</div>
+<div id="outline-container-orgd339ff2" class="outline-4">
+<h4 id="orgd339ff2"><span class="todo TODO">TODO</span> Examen Tercer Parcial</h4>
+</div>
+</div>
+
+<div id="outline-container-orgcbcf831" class="outline-3">
+<h3 id="orgcbcf831">Temas de Estudio</h3>
+</div>
+</div>
+
+<div id="outline-container-org46b25c2" class="outline-2">
+<h2 id="org46b25c2">Ingles 7</h2>
+<div class="outline-text-2" id="text-org46b25c2">
+</div>
+<div id="outline-container-org5b6db55" class="outline-3">
+<h3 id="org5b6db55">Detalles</h3>
+<div class="outline-text-3" id="text-org5b6db55">
+</div>
+<div id="outline-container-org1b7d7d3" class="outline-4">
+<h4 id="org1b7d7d3">Profesor</h4>
+<div class="outline-text-4" id="text-org1b7d7d3">
+<p>
+Rosa Barajas
+</p>
+</div>
+</div>
+<div id="outline-container-org85723fa" class="outline-4">
+<h4 id="org85723fa">Horario</h4>
+<div class="outline-text-4" id="text-org85723fa">
+<ul class="org-ul">
+<li>Lunes 19:30-21:10</li>
+<li>Miércoles 19:30-21:10</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbd19e87" class="outline-3">
+<h3 id="orgbd19e87">Tareas</h3>
+<div class="outline-text-3" id="text-orgbd19e87">
+</div>
+<div id="outline-container-org5fb9c32" class="outline-4">
+<h4 id="org5fb9c32"><span class="done DONE">DONE</span> Plataforma Ingles 1 19 de Marzo 2019</h4>
+<div class="outline-text-4" id="text-org5fb9c32">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2020-03-19 Thu 23:59&gt;</span></span></p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0778c86" class="outline-3">
+<h3 id="org0778c86">Temas de Estudio</h3>
+</div>
+</div>
+
+<div id="outline-container-org7191992" class="outline-2">
+<h2 id="org7191992">Bases de Datos Para Aplicaciones</h2>
+<div class="outline-text-2" id="text-org7191992">
+</div>
+<div id="outline-container-orgb65713e" class="outline-3">
+<h3 id="orgb65713e">Detalles</h3>
+<div class="outline-text-3" id="text-orgb65713e">
+</div>
+<div id="outline-container-org2331ec0" class="outline-4">
+<h4 id="org2331ec0">Profesor</h4>
+<div class="outline-text-4" id="text-org2331ec0">
+<p>
+Anselmo Perez
+</p>
+</div>
+</div>
+<div id="outline-container-orgd2384a7" class="outline-4">
+<h4 id="orgd2384a7">Horario</h4>
+<div class="outline-text-4" id="text-orgd2384a7">
+<ul class="org-ul">
+<li>Lunes 17:50-19:30</li>
+<li>Martes 20:20-21:10</li>
+<li>Miércoles 17:50-19:30</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf389fc2" class="outline-3">
+<h3 id="orgf389fc2">Tareas</h3>
+</div>
+<div id="outline-container-org5aeb2d2" class="outline-3">
+<h3 id="org5aeb2d2">Temas de Estudio</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Julio Gastelum</p>
+<p class="date">Created: 2020-03-19 Thu 10:14</p>
+</div>
+</body>
+</html>
